@@ -90,7 +90,3 @@ Generated a test burst of NULL-type queries against a fixed fake base domain (`t
 - WSL2's default memory allocation (~50% of host RAM) was insufficient for Wazuh's stated minimums; explicitly raising the ceiling via `.wslconfig` (`memory=`, in whole MB, not decimal GB) was necessary.
 - Sustained high CPU load (e.g., an indexer JVM process) inside WSL2 can produce noticeable thermal load on thin laptop hardware,worth monitoring `top`/`ps aux --sort=-%mem` and physical temperature, not just RAM figures, when running resource-heavy services locally.
 - Free cloud trials aimed at business evaluation (business email requirements, phone verification, usage review) can be a real obstacle when using them for individual learning/portfolio purposes.
-
-## Resume Bullet
-
-Built a Wazuh SIEM detection lab: deployed via Wazuh Cloud with Windows and Linux log sources, developed custom detection rules (encoded PowerShell execution, DNS tunneling) mapped to MITRE ATT&CK, including root-cause debugging of field-mapping and DNS log-source gaps.
