@@ -1,5 +1,3 @@
-# wazuh-siem-detection-lab
-
 # Wazuh SIEM Detection Lab
 
 A hands-on SOC analyst portfolio project: deploying Wazuh, connecting multi-OS log sources, and building custom MITRE ATT&CK-mapped detection rules including full debugging and design-reasoning notes for each step.
